@@ -25,3 +25,4 @@ for i in range (len(input_encrypted_str)):
     else:
         output_decrypted_str += input_encrypted_str[i]    
 #print the output
+print("The Plain Text:", output_decrypted_str)
